@@ -1,0 +1,474 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Big Shoulders Display', cursive;
+}
+body{
+    background-color:#e5e7e5;
+}
+/*start slider*/
+.banner {
+    width:100%;
+    height:auto;
+    position:relative;
+}
+
+.banner img{
+    width:100%;
+    height:auto;
+}
+.slider{
+    width:100%;
+    height:auto;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    margin:0;
+    padding:0;
+    list-style:none;
+
+}
+
+.slider img{
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:auto;
+    opacity:0;
+    transition:all 1s;
+}
+
+.slider input[type="radio"]{
+    position: relative;
+    z-index:100;
+}
+
+.slider input[type="radio"]:checked ~ img {
+    opacity:1;
+}
+/*End slider*/
+/*menu desktop*/
+
+.menudesktopitems{
+    width:80%;
+    margin:0 auto;
+    padding:15px;
+}
+.menudesktopitems ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style:none;
+   
+}
+nav ul{
+    position:sticky;
+    top:0;
+}
+.menudesktopitems ul li a{
+    color:#ffffff;
+    margin:20px;
+    padding:10px;
+    text-decoration: none;
+    font-size:1rem;
+}
+.menudesktopitems ul li a:hover{
+    color:#ffffff;
+    padding:10px;
+    margin:20px;
+    border-radius:8px;
+    background-color:#4b5860;
+}
+/*End desktop*/
+.populargames{
+    padding: 280px 0px 20px 0px;
+}
+
+.container_games{
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+
+}
+.games-item{
+    width:90%;
+    margin:0px auto;
+    display:block;
+}
+.logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -25px;
+}
+.logo img{
+    width:45%;
+}
+.gallery1{
+    display:grid;
+    grid-template-columns:20% 20% 20% 20% 20%;
+    grid-template-rows:20% 20% 20% 20% 20% 20%;
+    grid-gap:5px;
+}
+.img1{
+    grid-column: 1/3;
+    grid-row: 1/5;
+}
+.img2{
+    grid-column: 3/5;
+    grid-row: 1/3;
+}
+.img3{
+    grid-column: 3/6;
+    grid-row: 3/5;
+}
+.img4{
+    grid-column: 5/6;
+    grid-row: 1/3;
+}
+.img5{
+    grid-column: 3/6;
+    grid-row: 1/5;
+}
+.img6{
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.img7{
+    grid-column: 1/3;
+    grid-row: 3/5;
+}
+.img8{
+    grid-column: 1/6;
+    grid-row: 5/7;
+}
+
+.caja{
+    width:100%;
+    height:100%;
+    box-shadow: 2px 2px gray;
+    overflow: hidden;
+}
+.gameplay{
+    padding:30px;
+    display: flex;
+
+    flex-direction:column;
+    background-color:rgba(202,201,203, .6); 
+}
+.videogame{
+    width:100%;
+    display: block;
+    align-items: center;
+}
+.videogame p{
+   
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1rem;
+    margin-left:20px;
+    color:#4b5860;
+}
+.itemgame{
+    width:100%;
+    display: block;
+    justify-content: space-between;
+}
+.itemgamebox{
+    width:100%;
+    display:block;
+}
+.itemgamebox img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: block;
+    padding: 20px;
+}
+.itemgamebox p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1rem;
+    color:#4b5860;
+}
+/*contacto*/
+
+.contactogame{
+    display: block;
+    justify-content: space-around;
+    flex-direction: column;
+    width:100%;
+    padding:20px 0px;
+
+}
+.logoepic{
+    width:100%;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoepic img{
+    width:50%;
+    margin:0 auto;
+    display: block;
+}
+.logoepic p{
+    
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1rem;
+    color:#4b5860;
+}
+.formularioepic{
+    background-color:rgba(202,201,203, .6);
+    width:90%;
+    padding:10px;
+    margin:0 auto;
+    border-radius:20px;
+    display:block;
+}
+/* formulario*/
+
+form input[type="text"],form input[type="email"],form input[type="date"]{
+    width: 95%;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 0.8rem;
+    margin:4px auto;
+}
+form label{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1rem;
+    color:#4b5860;
+}
+
+form input[type="button"] {
+    background-color:#4b5860;
+    padding: 20px;
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+    margin: 10px 0px 5px 0px;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+/*footer*/
+.footer{
+    background-color: rgb(115,114,124);
+    padding:20px;
+    display: flex;
+}
+.redes{
+    width:50%;
+}
+.redes ul{
+    list-style:none;
+    display: block;
+}
+
+.redes ul li a{
+   color:#ffffff;
+   text-decoration:none;
+}
+.contacto{
+    width:50%;
+    display: block;
+    text-align: right;
+}
+.contacto p{
+    color:#ffffff;
+}
+.contacto h3{
+    color:#ffffff;
+}
+.facebook{
+    background:url(../images/logos/redes.png)no-repeat;
+    width: 40px;
+    height:40px;
+    background-size: 300%;
+    text-indent: 50px;
+    line-height:40px;
+}
+.twitter{
+    background:url(../images/logos/redes.png)no-repeat;
+    width: 40px;
+    height:40px;
+    background-size: 300%;
+    text-indent: 50px;
+    line-height:40px;
+    background-position: -40px 0px;
+}
+.instagram{
+    background:url(../images/logos/redes.png)no-repeat;
+    width: 40px;
+    height:40px;
+    background-size: 300%;
+    text-indent: 50px;
+    line-height:40px;
+    background-position: -80px 0px;
+}
+
+
+/*menu-responsive*/
+#menuMobile{
+    position: relative;
+    background:rgba(0,0,0, .8);
+    width:25%;
+    min-width:280px;
+    z-index:100;
+    margin:0px;
+    top:0;
+    left:0;
+    display:block;
+}
+
+.mostrar{
+    position:absolute;
+    top:50px;
+    left:10px;
+    background:rgba(0,0,0, .8);
+    list-style:none;
+    padding:20px;
+    border-radius:5px;
+    width:12rem;
+    display:none;
+
+}
+.mostrar li a{
+    text-decoration:none;
+    color:white;
+    display:block;
+    padding:10px;
+}
+
+.mostrar li a:hover{
+    color:white;
+    display: block;
+    text-decoration: none;
+    background:rgba(200,200,200, .6);
+    padding:10px;
+}
+.mostrarlo:hover .mostrar{
+    display:block;
+}
+.menumov{
+    position: absolute;
+    top:0;
+    border-radius:5px;
+    padding:10px;
+    background:rgba(0,0,0, .8);
+    display: flex;
+    align-items:center;
+}
+  .menudesktop {
+        width: 100%;
+        position: sticky;
+        top: 0;
+        background-color: rgb(115,114,124);
+        display:none;
+
+    }
+/* MEDIA QUERY*/
+@media screen and (min-width: 900px) {
+    #menuMobile{
+        display:none;
+    }
+    .gameplay {
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        background-color: rgba(202,201,203, .6);
+    }
+    .videogame {
+        width: 49%;
+        display: flex;
+        align-items: center;
+    }
+    .itemgame {
+        width: 49%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .itemgamebox {
+        width: 22%;
+        display: block;
+    }
+    .contactogame {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 20px 0px;
+        flex-direction: row;
+    
+  }
+  .logoepic {
+    width: 33%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .formularioepic {
+        background-color: rgba(202,201,203, .6);
+        width: 25%;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .container_games {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .container_games {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:row;
+    }
+    .games-item {
+        width: 32%;
+    }
+    .slider {
+        width: 100%;
+        height: 600px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .slider img{
+        position: absolute;
+        left:0;
+        top:0;
+        width:100%;
+        height:100%;
+        opacity:0;
+        transition:all 1s;
+    }
+    .slider input[type="radio"] {
+        position: relative;
+        z-index: 100;
+    }
+
+    .menudesktop {
+        width: 100%;
+        position: sticky;
+        top: 0;
+        background-color: rgb(115,114,124);
+        display:block;
+
+
+    }
+    .populargames {
+        padding: 60px 0px 20px 0px;
+    }
+}
