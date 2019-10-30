@@ -1,0 +1,175 @@
+body{
+    background:url('../images/cool-tech-wallpapers.jpg');
+    background-size:cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0px;
+}
+.tittle{
+color:#233038;
+font-size:3rem;
+text-align:center;
+padding:30px;
+width:100%;
+background: rgb(17,207,244);
+background: linear-gradient(90deg, rgba(17,207,244,1) 0%, rgba(17,244,93,1) 48%, rgba(8,71,125,1) 100%); 
+}
+
+.tittle .contentFooter{
+    display: flex;
+    justify-content: space-between
+}
+
+.tittle .contentFooter .network{
+    width:30%;
+}
+
+.tittle .contentFooter .network img{
+    width:60px;
+    display: inline;
+}
+.tittle .contentFooter .by{
+    width:30%;
+}
+.tittle .contentFooter .by p{
+    color:#233038;
+    font-size:1rem;
+}
+
+.buttons{
+    display:flex;
+    width:80%;
+    margin:0 auto;
+}
+.buttons a {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#06060a+1,161a23+87 */
+  background: #06060a; /* Old browsers */
+  background: -moz-linear-gradient(top,  #06060a 1%, #161a23 87%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #06060a 1%,#161a23 87%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #06060a 1%,#161a23 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#06060a', endColorstr='#161a23',GradientType=0 ); /* IE6-9 */
+  border:2px solid #6ef545;
+color:#6ef545;  
+padding:30px;
+border-radius:30px;
+width:22%;
+margin:40px 5px;
+text-align:center;
+border:2px solid #0a0c0e ;
+text-decoration:none;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.buttons a:hover{
+color:#233038; 
+background: rgb(17,207,244);
+background: linear-gradient(90deg, rgba(17,207,244,1) 0%, rgba(17,244,93,1) 48%, rgba(8,71,125,1) 100%); 
+
+}
+
+.buttons .imagenJs{
+    width:30%;
+}
+.buttons .imagenJs img{
+ width:250px;
+    
+}
+.buttons .datosKary{
+    background-color:rgba(0,0,0, .8);
+    width:70%;
+    padding:30px;
+    
+}
+.buttons .datosKary h1{
+    font-size:1.8rem;
+    color:#6ef545;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:100;
+    text-transform: uppercase;
+}
+
+.buttons .datosKary p{
+    font-size:1rem;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mis{
+    width:80%;
+    margin:30px auto;
+}
+.mis h2{
+    color:#6ef545;
+    font-size:3rem;
+    text-align:center;
+}
+.mis .mis-box{
+   display:flex;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.mis .mis-box .mis-box1{
+   width:60%;
+}
+
+.mis .mis-box .mis-box1 ol li{
+    font-size:1rem;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(0,0,0, .8);;
+line-height: 2rem;
+margin-bottom: 30px; 
+padding-left:1rem;
+ }
+
+ .mis .mis-box .mis-box1 ol li::marker{
+    background: rgb(17,207,244);
+    background: linear-gradient(90deg, rgba(17,207,244,1) 0%, rgba(17,244,93,1) 48%, rgba(8,71,125,1) 100%); 
+ }
+
+
+
+ .mis .mis-box .mis-box2{
+    width:40%;
+}
+
+.mis .mis-box .mis-box2 img{
+    width:50%;
+    display:block;
+    margin:0 auto;
+}
+
+.img1{
+    width:180px; 
+    margin-right:30px;   
+}
+.img1:hover{
+    filter:blur(30px); 
+}
+.img2{
+    width:180px;  
+    margin-right:30px;     
+}
+.img2:hover{
+    filter: brightness(.3); 
+}
+.img3{
+    width:180px;  
+    margin-right:30px;     
+}
+.img3:hover{
+    filter: invert(30%);
+}
+.img4{
+    width:180px;   
+    margin-right:30px;    
+}
+.img4:hover{
+    filter:contrast(250%);
+}
+.img5{
+    width:180px;  
+    margin-right:30px;     
+}
+.img5:hover{
+    filter: hue-rotate(90deg);
+}
