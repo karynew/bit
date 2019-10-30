@@ -1,0 +1,201 @@
+body{
+    background-color:rgba(0, 0, 0, 0.4);
+    background:url("../images/pais/kyoto-Japon.jpg");
+    background-size:cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+ul{
+    list-style:circle;
+}
+
+table{
+    width:70%;
+    margin:0 auto;
+    background-color:rgba(0,0,0, .7); 
+}
+
+.p-white{
+    color:white;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+}
+.middle{
+    width:50%;
+}
+table, th, td{
+
+}
+.border{
+  border:1px solid gray;
+}
+.img-japon{
+    width: 250px;
+    margin:0 auto;
+    display:block;
+}
+.img-japon:hover{
+    filter:blur(5px);
+}
+
+.left-text{
+    height:300px;
+    font-size:20px;
+}
+
+.left-text span{
+    color:white;
+}
+.left-text p{
+    color:yellow;
+}
+
+ a:link {
+    color:green;
+ }
+
+ a:hover{
+    font-weight:bolder;
+ }
+
+ a:visited{
+     color:gray;
+ }
+  
+
+ a img{
+     width:200px;
+     height:200px;
+ }
+
+ .btnRed{
+     background:red;
+     padding:20px;
+     border-radius:20px;
+     color:white;
+     margin:50px;
+     cursor: pointer;
+     border: 3px yellow solid;
+     border-image: linear-gradient(45deg, yellow 0%, green 100%);
+     border-image-slice: 1 1 1 1;
+ }
+
+ .btnRed:hover{
+     background:#444444;
+     font-weight:bolder;
+ }
+
+ .btnfull{
+    background:green;
+    padding:20px;
+    border-radius:20px;
+    color:white;
+    margin:50px;
+    cursor: pointer;
+    border: 3px yellow solid;
+    border-image: linear-gradient(45deg, yellow 0%, green 100%);
+    border-image-slice: 1 1 1 1;
+}
+.btnfull:hover{
+    background:blue;
+    padding:20px;
+    border-radius:20px;
+    color:white;
+    margin:50px;
+    cursor: pointer;
+    border: 3px yellow solid;
+    border-image: linear-gradient(45deg, yellow 0%, green 100%);
+    border-image-slice: 1 1 1 1;
+}
+
+.imgHover{
+    filter:blur();
+}
+
+.imgHover:hover{
+    /*filter:blur(5px); */
+    /*  filter:grayscale(50%); */
+    /* filter:sepia(30%); */
+    /*   filter:saturate(180%); */
+    filter:opacity(.3);
+}
+
+.texto-sombra{
+    color:blue;
+    text-shadow: 1px 1px rgba(255,33,44,0.4);
+    word-spacing:20px;
+    letter-spacing:15px;
+    font-size:30px;
+
+}
+
+
+h1{
+    text-align: center;
+}
+.movies{
+    display:flex;
+    width:90%;
+    margin:0 auto;
+    flex-wrap: wrap;
+    max-width:1000px;
+}
+
+.movies .movie-items{
+    width:300px;
+    padding:5px;
+}
+
+.movies .movie-items img{
+    width:300px;
+}
+
+.fitro1:hover{
+    filter:blur(5px);
+}
+.fitro2:hover{
+    filter:grayscale(50%);
+}
+.fitro3:hover{
+   filter:sepia(30%); 
+}
+.fitro4:hover{
+    filter:saturate(180%);
+}
+.fitro5:hover{
+    filter:opacity(.3);
+}
+
+
+.btnMovie{
+    background:#0770e7;
+    padding:20px;
+    color:#ffffff;
+    text-align:center;
+    width: 100%;
+    margin: 0 auto;
+    font-weight:bolder;
+    font-size:1.5rem;
+    border-radius:50px;
+}
+
+.btnMovie:hover{
+    background:#a313b6;
+    border: 3px yellow solid;
+    border-image: linear-gradient(45deg, yellow 0%, green 100%);
+    border-image-slice: 1 1 1 1;
+}
+
+.video{
+ 
+    width:560px;
+    margin:50px auto;
+    display:block;
+}
+
+.filtro-japon:hover{
+   
+}
