@@ -1,0 +1,45 @@
+body{
+    background-color:rgba(0, 0, 0, 0.4);
+    background-size:cover;
+    background-attachment: local;
+    background:url('images/black_keys_1551990016.png');
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h1{
+    color:rgb(0,0,0);
+    font-size:30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+}
+
+.poster{
+    width:1000px;
+    margin:0 auto;
+    display:flex;
+}
+.poster img{
+    min-width:300px;
+    max-width:300px;
+    margin-right:15px;   
+}
+
+.video-band{
+    width:560px;
+    margin:auto;
+}
+
+.place{
+    display:flex;
+    width:100%;
+  
+}
+ .place iframe{
+    width:45%
+ }
+
+ .place P{
+    width:45%;
+    padding:20px;
+ }
